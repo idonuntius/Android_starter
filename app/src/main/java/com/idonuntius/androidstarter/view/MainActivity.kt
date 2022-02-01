@@ -1,4 +1,4 @@
-package com.idonuntius.androidstarter.presentation.view
+package com.idonuntius.androidstarter.view
 
 import androidx.appcompat.app.AppCompatActivity
 import android.os.Bundle
