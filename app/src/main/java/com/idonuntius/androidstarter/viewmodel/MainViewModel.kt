@@ -18,8 +18,8 @@ class MainViewModel @Inject constructor(
 
     init {
         viewModelScope.launch {
-            val test = mainRepository.getTest()
-            _text.value = test.toString()
+            val me = mainRepository.getMe()
+            _text.value = me.toString()
         }
     }
 }
