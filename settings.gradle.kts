@@ -8,3 +8,5 @@ dependencyResolutionManagement {
 }
 rootProject.name = "AndroidStarter"
 include(":app")
+include(":api")
+include(":model")

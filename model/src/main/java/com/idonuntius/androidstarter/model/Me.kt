@@ -5,8 +5,12 @@ import kotlinx.serialization.Serializable
 
 @Serializable
 data class Me(
+    @SerialName("login")
+    val login: String,
     @SerialName("id")
     val id: Int,
     @SerialName("name")
-    val name: String
+    val name: String,
+    @SerialName("avatar_url")
+    val avatarUrl: String
 )
